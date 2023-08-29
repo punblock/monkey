@@ -16,10 +16,10 @@ python monkey.py build_project --src where_your_project/src
 Monkey will do as follow :
 
 1. Build all every `where_your_project/src/you_file.c` to every `where_your_project/build/you_file.mk.as.o`, and dont link anything. 
-2. Build all every `where_your_project/build/you_file.mk.as.o` to one `where_your_project/build/a.mk.dist.out`. It will do link and build execute.
+2. Build all every `where_your_project/build/you_file.mk.as.o` to one `where_your_project/build/a.mk.dist.out`. It will do link and build executable.
 3. Copy the `where_your_project/build/a.mk.dist.out` to one `where_your_project/build/a.out`.
 
-This just for a source file is newer the target file in mapping, or the mapping target is not exists.
+A file will build/rebuild if that source file is newer the mapping target file, or the mapping target is not exists yet.
 
 For now just support gcc.
 
