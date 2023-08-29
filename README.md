@@ -5,7 +5,7 @@ A Makefile-less build script for c software solution.
 
 Monkey is design for the one who wont write a Makefile or any complicated-concept build system. Monkey wont be a "SYSTEM", and give priority to feature between intuition and not loop in dependence.
 
-"Make" consider harmful. With monkey you can write a not-one-file c program but not care the details how "make".
+"Make" consider harmful. With monkey you can write a not-one-c-file c program but not care the details how "make".
 
 ## Example 
 
